@@ -16,8 +16,18 @@
 
 Make sure you have already installed [Espanso](https://espanso.org/install) first.
 
+### Either install with `espanso install` (wating for https://github.com/federico-terzi/espanso-hub/issues/54)
+
 ```sh
 espanso install encircled-numbers
+espanso restart
+```
+
+### Or using `git`
+
+```sh
+cd "$(espanso path config)/user"
+git clone https://github.com/kopach/espanso-package-encircled-numbers.git
 espanso restart
 ```
 
